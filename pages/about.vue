@@ -1,7 +1,7 @@
 <template>
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content flex-col lg:flex-row">
-      <img src="../assets/images/dimas.JPG" class="max-w-sm rounded-lg shadow-2xl"/>
+      <img src="~/assets/images/dimas.jpg" class="max-w-sm rounded-lg shadow-2xl"/>
       <div>
         <h1 class="text-5xl font-bold">Dimas Bagas Saputro</h1>
         <h3 class="text-3xl font-bold pt-3">Web Developer</h3>
