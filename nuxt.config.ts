@@ -2,21 +2,7 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/color-mode',
-        '@nuxtjs/axios',
-        ['nuxt-mail', {
-            message: {
-                to: 'dimaabagas73@gmail.com',
-            },
-            smtp: {
-                host: 'smtp.mailtrap.io',
-                port: 2525,
-                auth: {
-                    username: '',
-                    password: ''
-                }
-            }
-        }]
+        '@nuxtjs/color-mode'
     ],
     colorMode: {
         preference: 'system', // default value of $colorMode.preference
