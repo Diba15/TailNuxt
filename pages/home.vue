@@ -27,7 +27,7 @@
             class="font-bold text-accent-content"><nuxt-link to="https://daisyui.com/">DaisyUI</nuxt-link></span>
           to enhance the appearance of the web.
         </p>
-        <nuxt-link to="">
+        <nuxt-link to="https://github.com/Diba15/TailNuxt">
           <button class="btn btn-wide bg-accent text-accent-content">Source Code</button>
         </nuxt-link>
       </div>
