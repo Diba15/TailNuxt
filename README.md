@@ -1,0 +1,2 @@
+# TailNuxt
+Nuxt JS Tailwind
