@@ -4,7 +4,7 @@
 
 This website is a website created using the Nuxt JS 3 framework which is based on Vue JS. This website is also equipped with the Tailwind CSS and DaisyUI to enhance the appearance of the web.
 
-App : https://tail-nuxt-git-master-diba15.vercel.app
+App Preview: https://tail-nuxt-git-master-diba15.vercel.app
 
 ## Setup
 
