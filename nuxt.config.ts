@@ -8,5 +8,8 @@ export default defineNuxtConfig({
         preference: 'system', // default value of $colorMode.preference
         dataValue: 'theme',
         classSuffix: '',
-    }
+    },
+    routeRules: {
+        '/': {redirect: '/home'},
+    },
 })

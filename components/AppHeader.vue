@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <title>TailNuxt</title>
+  </Head>
   <div class="navbar bg-base-100">
     <div class="navbar-start">
       <div class="dropdown">
@@ -81,35 +84,6 @@ export default {
         {id: 3, to: "/contact", label: "Contact"}
       ]
     }
-  },
-  computed: {
-    currentRoute() {
-      // Replace this with the actual method to get the current route in your Vue.js application
-      // For example, if you're using Vue Router, you can use `this.$route.path`
-      return this.$route.path; // Replace this with the actual method to get the current route
-    },
-  },
-  methods: {
-    checkActivePage() {
-      this.menuItems.forEach(item => {
-        item.isActive = item.url === this.currentRoute;
-      });
-    },
-    closeMobileMenu() {
-      // Close the mobile menu by setting isOpen to false
-      this.isOpen = false;
-    },
-    toggleMobileMenu() {
-      this.mobileMenuOpen = !this.mobileMenuOpen;
-    }
-  },
-  watch: {
-    currentRoute() {
-      this.checkActivePage();
-    },
-  },
-  mounted() {
-    this.checkActivePage();
   },
 }
 </script>
