@@ -8,11 +8,6 @@ Make sure to install the dependencies:
 # npm
 npm install
 
-npm install -D tailwindcss
-npx tailwindcss init
-
-npm i daisyui
-
 ```
 
 ## Development Server
