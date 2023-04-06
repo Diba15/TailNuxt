@@ -1,6 +1,6 @@
 # TailNuxt
 
-[![]()](https://github.com/Diba15/TailNuxt/blob/master/assets/images/web.png)
+![Screenshot](https://github.com/Diba15/TailNuxt/blob/master/assets/images/web.png)
 
 ## Setup
 
